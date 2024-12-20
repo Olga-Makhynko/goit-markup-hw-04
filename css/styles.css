@@ -227,10 +227,6 @@ button {
 .icon {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-right: 100px;
-  padding-bottom: 24px;
-  padding-left: 100px;
   justify-content: center;
   background-color: #f4f4fd;
   border-radius: 4px;
@@ -271,6 +267,8 @@ button {
   color: #2e2f42;
   margin-bottom: 8px;
   width: calc((100% - 72px) / 4);
+}
+.container {
 }
 .footer-page .container-footer-style {
   display: flex;
