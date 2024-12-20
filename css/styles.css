@@ -236,6 +236,7 @@ button {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
+  height: 112px;
 }
 
 .icon-line-list {
@@ -295,7 +296,7 @@ button {
 }
 .social-icon:hover,
 .social-icon:focus {
-  fill: #31d0aa;
+  background-color: #31d0aa;
 }
 .social-list-box {
   display: flex;
@@ -447,6 +448,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.hero {
+  background-position: center;
 }
 
 .hero-btn {
