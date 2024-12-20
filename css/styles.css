@@ -261,10 +261,14 @@ button {
   justify-content: center;
   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .icon-list:focus,
 .icon-list:hover {
-  background-color: #31d0aa;
+  background-color: #404bbf;
+}
+
+.social-icon .icon-list:focus,
+.social-icon .icon-list:hover {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-line {
   display: flex;
@@ -306,23 +310,23 @@ button {
   justify-content: center;
   gap: 16px;
 }
-.text-footer .box-title {
-  font-weight: 500;
-  font-size: 16px;
+.text-footer {
   margin-bottom: 16px;
-  color: #fff;
 }
-.social-icon .icon-list:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.social-icon {
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .box-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+}
+.social-icon .icon-list:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .text-title {
   font-weight: 400;
