@@ -318,7 +318,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  transform: translateY(0%);
   margin-bottom: 16px;
 }
 .social-icon .icon-list:hover {
