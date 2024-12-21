@@ -421,7 +421,7 @@ button {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.project-card:hover .over-text {
+.project-card:hover .overlay-text {
   transform: translateY(0%);
 }
 
@@ -507,6 +507,10 @@ button {
   padding: 100px 0 100px 0;
 }
 .footer-page .logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-page .container-footer-style {
   display: flex;
   align-items: baseline;
 }
