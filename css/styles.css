@@ -319,6 +319,7 @@ button {
   letter-spacing: 0.02em;
   color: #fff;
   transform: translateY(0%);
+  margin-bottom: 16px;
 }
 .social-icon .icon-list:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -412,7 +413,6 @@ button {
   padding: 40px 32px;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
 }
 .over-port {
   position: relative;
